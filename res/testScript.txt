@@ -1,0 +1,73 @@
+load images/dog.jpeg dog
+horizontal-flip dog dog-horizontal
+vertical-flip dog dog-vertical
+red-component dog dog-red
+blue-component dog dog-blue
+green-component dog dog-green
+brighten 50 dog dog-brightenedBy50
+brighten -50 dog dog-darkenedBy50
+blur dog dog-blur
+blur dog-blur dog-blurred
+blur dog-blurred dog-blurred
+sharpen dog dog-sharp
+luma-component dog dog-luma
+intensity-component dog dog-intense
+value-component dog dog-value
+sepia dog dog-sepia
+rgb-split dog dog-split-red dog-split-green dog-split-blue
+rgb-combine dog-combine dog-split-red dog-split-green dog-split-blue
+compress 50 dog dog-c-50
+save res/dog-c-50.jpg dog-c-50
+compress 90 dog dog-c-90
+save res/dog-c-90.jpg dog-c-90
+histogram dog dog-histogram
+save res/dog-histogram.png dog-histogram
+color-correct dog dog-correct
+histogram dog-correct dog-correct-histogram
+save res/dog-correct-histogram.png dog-correct-histogram
+save res/dog-correct.jpg dog-correct
+color-correct dog dog-correct-split split 50
+histogram dog-correct-split dog-correct-split-histogram
+save res/dog-correct-split-histogram.png dog-correct-split-histogram
+save res/dog-correct-split.jpg dog-correct-split
+levels-adjust 20 100 200 dog dog-adjust-1
+histogram dog-adjust-1 dog-adjust-1-histogram
+save res/dog-adjust-1-histogram.png dog-adjust-1-histogram
+save res/dog-adjust-1.jpg dog-adjust-1
+levels-adjust 20 100 200 dog dog-adjust-1-split split 80
+histogram dog-adjust-1-split dog-adjust-1-split-histogram
+save res/dog-adjust-1-split-histogram.png dog-adjust-1-split-histogram
+save res/dog-adjust-1-split.jpg dog-adjust-1-split
+levels-adjust 10 150 240 dog dog-adjust-2
+histogram dog-adjust-2 dog-adjust-2-histogram
+save res/dog-adjust-2-histogram.png dog-adjust-2-histogram
+save res/dog-adjust-2.jpg dog-adjust-2
+save res/dog-horizontal.jpg dog-horizontal
+save res/dog-vertical.jpg dog-vertical
+save res/dog-red-component.jpg dog-red
+save res/dog-blue-component.jpg dog-blue
+save res/dog-green-component.jpg dog-green
+save res/dog-brightenedBy50.jpg dog-brightenedBy50
+save res/dog-darkenedBy50.jpg dog-darkenedBy50
+save res/dog-blur.jpg dog-blur
+save res/dog-blurred.jpg dog-blurred
+save res/dog-sharpened.jpg dog-sharp
+save res/dog-luma-greyscale.jpg dog-luma
+save res/dog-intensity-greyscale.jpg dog-intense
+save res/dog-value-greyscale.jpg dog-value
+save res/dog-sepia.jpg dog-sepia
+save res/dog-combine.jpg dog-combine
+blur dog dog-blur-split65 split 65
+blur dog-blur-split65 dog-blur-split65 split 65
+blur dog-blur-split65 dog-blur-split65 split 65
+sharpen dog dog-sharp-split70 split 70
+luma-component dog dog-luma-split70 split 70
+intensity-component dog dog-intense-split60 split 60
+value-component dog dog-value-split20 split 20
+sepia dog dog-sepia-split50 split 50
+save res/dog-blur-split65.jpg dog-blur-split65
+save res/dog-sharp-split70.jpg dog-sharp-split70
+save res/dog-luma-split70.jpg dog-luma-split70
+save res/dog-intense-split60.jpg dog-intense-split60
+save res/dog-value-split20.jpg dog-value-split20
+save res/dog-sepia-split50.jpg dog-sepia-split50
