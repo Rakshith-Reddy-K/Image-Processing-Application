@@ -91,19 +91,7 @@ errors appropriately.
 `ImageGUIController`: This is a controller for the GUI implemented but ImageGraphicalView class. 
 It handles user clicks in the UI and display the UI accordingly.
 
-## Design changes
-
-Made all the methods in ImageModel final and the class abstract. This is done to maintain the
-existing functionality as is. Now as a new version ImageModelV2 class is created which extends this
-abstracted ImageModel and adds the new features in this class which are required in Assignment 5.
-
-For Assignment 6, a new controller ImageGUIController is introduced which handles all the inputs 
-from the UI. For the GUI java swing is used and all the code related to the view reside in 
-ImageGraphicalView class.
-
-## Citation
-
-Author: Jovana Askrabic (https://unsplash.com/@jovana0909)
+## Citation For Images Used
 
 Source: https://unsplash.com/photos/black-white-and-brown-bernese-mountain-dog-lying-on-green-grass-field-during-daytime-4QQQTTXn3NA
 
